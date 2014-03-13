@@ -13,4 +13,5 @@ galaxy_info:
   - system
   - development
 
-dependencies: []
+dependencies:
+  - Ansibles.build-essential

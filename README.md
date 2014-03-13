@@ -9,6 +9,7 @@ If you want the server to be running, you should not install from source.
 
 #### Requirements & Dependencies
 - Tested on Ansible 1.4 or higher
+- Ansibles.build-dependencies for building git from source.
 
 
 #### Variables
