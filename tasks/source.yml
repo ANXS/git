@@ -1,5 +1,11 @@
 # file: git/tasks/source.yml
 
+- name: Git | Make sure the build dependencies are installed
+  apt:
+    pkg: "{{item}}"
+    state: present
+  with_items: ["libcurl4-openssl-dev", "libexpat1-dev", "libz-dev", "libssl-dev"]
+
 - name: Git | Download the Git source in /tmp
   get_url:
     url: "{{git_source_url}}"
