@@ -2,6 +2,7 @@
 
 - name: Git | Make sure the build dependencies are installed
   apt:
+    update_cache: yes
     pkg: "{{item}}"
     state: present
   with_items: ["libcurl4-openssl-dev", "libexpat1-dev", "libz-dev", "libssl-dev"]
