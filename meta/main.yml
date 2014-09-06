@@ -2,7 +2,7 @@
 
 galaxy_info:
   author: pjan vandaele
-  company: Ansibles
+  company: ANXS
   description: Install Git (package, source, server)
   min_ansible_version: 1.4
   license: MIT
@@ -15,4 +15,4 @@ galaxy_info:
   - development
 
 dependencies:
-  - Ansibles.build-essential
+  - ANXS.build-essential
