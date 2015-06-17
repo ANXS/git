@@ -9,7 +9,7 @@ If you want the server to be running, you should not install from source.
 
 #### Requirements & Dependencies
 - Tested on Ansible 1.4 or higher
-- ANXS.build-dependencies for building git from source.
+- ANXS.build-essential for building git from source.
 
 
 #### Variables
